@@ -54,16 +54,16 @@ The pipeline implements the following workflow:
 
 1.  **Clone the repository:**    
     ```bash
-    git clone https://github.com/AlonsoRodriguezz/CHANCES-LOWZ-MEMBERSHIP.git
+    git clone https://github.com/4MOST-CHANCES/CHANCES_LOWZ_MEMBERSHIP.git
     cd CHANCES-LOWZ-MEMBERSHIP
     ```
 2.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-    > **Note for Anaconda users:** To avoid breaking your `base` environment due to version conflicts, we highly recommend creating a dedicated environment (same goes if you use other environment managers) before installing the requirements:
+    > **Note for Anaconda users:** To avoid breaking your `base` environment due to version conflicts, we **HIGHLY RECOMMEND** creating a dedicated environment (same goes if you use other environment managers) before installing the requirements:
     > ```bash
-    > conda create -n chances_lowz python=3.10
+    > conda create -n chances_lowz python=3.13.5
     > conda activate chances_lowz
     > pip install -r requirements.txt
     > ```

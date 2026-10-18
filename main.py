@@ -241,7 +241,7 @@ def main():
     print('\n'+'='*50)
     print('MODEL')
     print('='*50)
-    print(f"The model will use the gridsearch parameters from a previously trained model.\nThis requires 'RF_clone.pkl' file in 'RF_clone.pkl' file to be inside the 'data/' folder")
+    print(f"The model will use the gridsearch parameters from a previously trained model.\nThis requires 'RF_clone.pkl' file in 'RF_clone.pkl' file to be inside the 'data/train/' folder")
     
     while True:
         if os.path.exists(model_checkpoint_path):
