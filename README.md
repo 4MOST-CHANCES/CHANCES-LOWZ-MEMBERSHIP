@@ -35,7 +35,7 @@ The code classifies galaxy cluster members out to $5\ \mathrm{R}_{200}$ and is t
 
 The pipeline implements the following workflow:
 
-1. **Data Processing:** Reads mocks, links cluster properties from `clust_to_sim_all_dyn_state_relax_train.fits`, and loads or generates the corresponding `*_master.parquet` table for a given $r$-band cut. If you want to save some time *you can download* the `df_rmag_20_4_master.parquet` and `df_rmag_18_5_master.parquet` (for a 20.4 and 18.5 $r$-band cut respectively) files from [this link (in the future)](link-to-drive) and store them in your data/train/ folder.
+1. **Data Processing:** Reads mocks, links cluster properties from `clust_to_sim_all_dyn_state_relax_train.fits`, and loads or generates the corresponding `*_master.parquet` table for a given $r$-band cut. If you want to save some time *you can download* the `df_rmag_20_4_master.parquet` and `df_rmag_18_5_master.parquet` (for a 20.4 and 18.5 $r$-band cut respectively) files from [this link (in the future)](link-to-drive) and store them in your `data/train/` folder.
 
 2. **Feature Selection and Engineering:**
    * r-band magnitude $m_r$
@@ -54,7 +54,7 @@ The pipeline implements the following workflow:
 
 1.  **Clone the repository:**    
     ```bash
-    git clone https://github.com/4MOST-CHANCES/CHANCES_LOWZ_MEMBERSHIP.git
+    git clone https://github.com/4MOST-CHANCES/CHANCES-LOWZ-MEMBERSHIP.git
     cd CHANCES-LOWZ-MEMBERSHIP
     ```
 2.  **Install dependencies:**
@@ -111,9 +111,9 @@ The pipeline implements the following workflow:
     or use the `test.ipynb` instead.
     > **Note:** If you only want to validate using a reference model (e.g. the one provided here), you can run `test.py`/`test.ipynb` directly and skip the training phase (`main.py`/`main.ipynb`), same thing applies for future runs once you have trained your own model running `main.py`. Always ensure the script points to your intended trained model path.
 
-## Citation
+## Authorship & Citation
 
-If you use this pipeline or pre-trained models for your investigation, please cite the corresponding paper:
+This pipeline was designed by Gerardo A. Rodríguez as part of the CHANCES Low-$z$ cluster membership team. If you use this code or the pre-trained models in your research, please cite the main publication:
 
 ```bibtex
 @article{...,
