@@ -10,7 +10,7 @@ This repository contains the machine learning pipeline developed for the publica
 > *Piraino-Cerda et al. (2026)*  
 > DOI: [DOI / Link]
 
-The code classifies galaxy cluster members out to $5\ \mathrm{R}_{200}$ and is trained on mock catalogs from the CHANCES Low - $z$ sub-survey. For any **inquiries please contact** [Gerardo Rodríguez](https://github.com/AlonsoRodriguezz).
+The code classifies galaxy cluster members out to $5\ \mathrm{R}_{200}$ and is trained on mock catalogs from the CHANCES Low - $z$ sub-survey. For any **inquiries please contact** [Gerardo A. Rodríguez](https://github.com/AlonsoRodriguezz).
 
 ## Repository Structure 
 
@@ -113,7 +113,7 @@ The pipeline implements the following workflow:
 
 ## Authorship & Citation
 
-This pipeline was designed by Gerardo A. Rodríguez as part of the CHANCES Low-$z$ cluster membership team. If you use this code or the pre-trained models in your research, please cite the main publication:
+This pipeline was designed by Gerardo A. Rodríguez as a contribution to the CHANCES survey. If you use this code or the pre-trained models in your research, please cite the main publication:
 
 ```bibtex
 @article{...,
